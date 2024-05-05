@@ -1,0 +1,32 @@
+[
+    {
+        "ref": "//*[@id=\"15\"]",
+        "type": "single",
+        "action": "click"
+    },
+    {
+        "ref": "//*[@id=\"16\"]",
+        "type": "single",
+        "action": "click"
+    },
+    {
+        "ref": "//*[@id=\"17\"]",
+        "type": "single",
+        "action": "click"
+    },
+    {
+        "ref": "//*[@id=\"18\"]",
+        "type": "single",
+        "action": "click"
+    },
+    {
+        "ref": "//*[@id=\"21\"]",
+        "type": "single",
+        "action": "click"
+    },
+    {
+        "ref": "//*[@id=\"3\"]",
+        "type": "single",
+        "action": "click"
+    }
+]

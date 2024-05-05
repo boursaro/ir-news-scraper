@@ -1,0 +1,47 @@
+{
+    "url": "https://nabzebourse.com/",
+    "actions": [
+        {
+            "type": "click",
+            "selector": {
+                "type": "single",
+                "ref": "//*[@id=\"1\"]"
+            },
+            "linked_actions": [
+                {
+                    "type": "goto",
+                    "selector": {
+                        "type": "group",
+                        "ref": "/html/body/div[2]/div[2]/div[1]/div[2]/section/article",
+                        "target": "/h2/a"
+                    },
+                    "result_storage_id": "article",
+                    "linked_actions": [
+                        {
+                            "type": "extract",
+                            "selector": {
+                                "type": "single",
+                                "ref": "/html/body/div[2]/div[2]/div[3]/div/div[1]/h1/a"
+                            },
+                            "result_storage_key": "title"
+                        },
+                        {
+                            "type": "extract",
+                            "selector": {
+                                "type": "single",
+                                "ref": "/html/body/div[2]/div[2]/div[3]/div/div[1]/div[6]"
+                            },
+                            "result_storage_key": "description"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "storages": [
+        {
+            "id": "article",
+            "keys": ["title", "description"]
+        }
+    ]
+}
